@@ -2,7 +2,7 @@ sudo: false
 language: java
 matrix:
   include:
-    - name: Open JDK 8
+    - name: OpenJDK 8
       jdk: openjdk8
     - name: OpenJDK 11
       jdk: openjdk11
