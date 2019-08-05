@@ -2,8 +2,9 @@ sudo: false
 language: java
 matrix:
   include:
-    - name: Oracle JDK 8
+    - name: Oracle JDK 8 on Trusty
       jdk: oraclejdk8
+      dist: trusty # oraclejdk8 absent in Xenial
     - name: OpenJDK 11
       jdk: openjdk11
 cache:
